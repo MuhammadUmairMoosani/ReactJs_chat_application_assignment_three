@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border-right-color: #ff8000;
+  border-right-style: solid;
+  border-right-width: 3px;
+}
+.message {
+  background-color: #fff;
+  width: 76.6vw;
+  flex: 6;
+}
+.send {
+  flex: 1;
+}
+.input {
+  width: 65vw;
+  height: 12px;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+.sendButton {
+  height: 56px;
+  font-size: 16px;
+  background-color: #ff8000;
+  color: #fff;
+  border-width: 2px;
+  border-color: #ff8000;
+  border-style: solid;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+.sender {
+  background-color: #ff800052;
+  border-radius: 10px;
+  padding: 10px;
+  border-top-right-radius: 0;
+  font-family: Helvetica;
+}
+.receiver {
+  background-color: #e3e3e3;
+  border-radius: 10px;
+  padding: 10px;
+  border-top-left-radius: 0;
+  font-family: Helvetica;
+}
+.senderCon {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: 10px;
+}
+.receiverCon {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  margin: 10px;
+}

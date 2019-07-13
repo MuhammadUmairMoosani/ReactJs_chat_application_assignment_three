@@ -1,0 +1,22 @@
+.header {
+  background-color: #ff8000;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  width:98.5vw;
+}
+.components {
+  display: flex;
+  flex-direction: row;
+}
+.user {
+  display: flex;
+  height: 93.4vh;
+}
+.messages {
+  display: flex;
+  flex: 1;
+  height: 93.4vh;
+}
